@@ -1,0 +1,79 @@
+html
+body
+  width 100%
+  height 100%
+  font-size 16px
+
+.cabecera
+  width 100%
+  height 70%
+  background url('../img/photo-1429051883746-afd9d56fbdaf.jpg')
+  background-attachment fixed
+  text-align center
+  img
+    width 60%
+    height 60%
+    margin-top 5%
+
+.texto-cabecera
+  width 100%
+  background nodeschool
+  text-align center
+  h2
+    margin 0
+    padding .5em
+    color letra
+    font-family 'Source Sans Pro'
+
+.cuerpo
+  width 100%
+  height 100%
+  .ejemplos
+    width 60%
+    padding 1em 0em
+    margin-left 20%
+    display flex
+    display -webkit-flex
+    display -moz-flex
+    flex-direction row
+    justify-content space-around
+    .descarga
+      width 45%
+      border .2em solid bordes
+      border-radius .2em
+      .puntero
+        width 100%
+        border-bottom .2em solid bordes
+        display flex
+        display -webkit-flex
+        display -moz-flex
+        flex-direction row
+        justify-content flex-start
+        .opcion
+          border-radius 100%
+          border .2em solid bordes
+          width .5em
+          height .5em
+          margin 3% 0%
+          &:hover
+            background nodeschool
+          &:first-child
+            margin-left .5em
+            margin-right .1em
+            &:hover
+              background red
+          &:last-child
+            margin-left .1em
+            &:hover
+              background green
+    .descarga-info
+      width 100%
+      ul
+        list-style none
+        li
+          border-left .5em solid nodeschool
+          padding-left .2em 
+          margin-bottom .5em
+          color letra
+          font-family: 'Source Sans Pro';
+          font-size 1.2em
