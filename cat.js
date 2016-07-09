@@ -6,7 +6,7 @@ cat.stylus({
   stylus: './assets/stylus/estilo.styl'
 });
 
-cat.broserify({
+cat.browserify({
   original: './assets/js/script.js',
   compilado: './assets/js/nodeschool.js',
   presets: true
