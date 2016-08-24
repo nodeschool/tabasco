@@ -28,9 +28,9 @@ body
 
 .cuerpo
   width 100%
+  text-align center
   .info-nodeschool
     width 60%
-    margin-left 20%
     display inline-block
     p
       margin 1em 0em
@@ -116,10 +116,14 @@ body
     display flex
     justify-content center
     padding 1em 0em
+    width 100%
+    text-align center
     ul
       list-style none
       margin 0
       padding 0
+      width 60%
+      text-align justify
       li
         margin .5em 0em
         color letra
@@ -147,12 +151,13 @@ body
     margin .5em 0em
     text-align center
     acronym
+      width 20%
       a
         cursor pointer
         img:first-child
           
         img
-          width 12.5em
+          width 175px
           border-radius .2em
         
 .organiza
@@ -235,13 +240,13 @@ body
         font-size 17px
     .organizadores
       justify-content space-between
-      align-items space-around
+      align-items space-between
       acronym
         a
           cursor pointer
           img:first-child
           img
-            width 150px
+            width 100px
             border-radius .2em
 
 @media screen and (max-width: 500px)
@@ -257,12 +262,13 @@ body
     .organizadores
       justify-content space-between
       align-items space-around
+      
       acronym
         a
           cursor pointer
           img:first-child
           img
-            width 100px
+            width 90px
             border-radius .2em
   .organiza
     color white
@@ -278,11 +284,13 @@ body
       justify-content space-between
       align-items space-around
       acronym
+        margin 0
+        padding 0
         a
           cursor pointer
           img:first-child
           img
-            width 100px
+            width 80px
             border-radius .2em
   .organiza
     color white
