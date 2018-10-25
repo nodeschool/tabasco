@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 html,body{
     padding: 0;
     margin: 0;
@@ -19,11 +20,7 @@ background-color:#000;
 animation-delay: 3s;
 position:relative;
 min-height:500px;
-/* text-align: center; */
 }
-/* .animated-background img{
-width: 25%;
-} */
 .headerContainer{
     display: flex;
     flex-direction: column;
@@ -53,15 +50,9 @@ background-image: url(../img/2.png);
 100% {
 background-image: url(../img/3.png);
 }
-/* 75% {
-background-image: url(../img/1.jpg);
-}
-100% {
-background-image: url(https://picsum.photos/1200/800?image=1074);
-} */
 }
 
-/****** add a background overlay *******/
+/*Background overlay No usado*/
 .animated-background:before {
 content:"";
 position:absolute;
@@ -154,6 +145,11 @@ opacity:0.3;
     flex-direction: row;
     flex-wrap: wrap;
 }
+.layer0{
+    display: flex;
+     flex-direction: row;
+    background:rgba(0, 0, 0, 0.3);
+}
 .layer1{
     display: flex;
      flex-direction: row;
@@ -173,6 +169,11 @@ opacity:0.3;
     display: flex;
      flex-direction: row;
     background:rgba(0, 0, 0, 0.3);
+}
+.layer0:hover{
+    display: flex;
+     flex-direction: row;
+     background: rgba(255, 133, 34, 0.8);
 }
 .layer1:hover{
     display: flex;
@@ -194,16 +195,19 @@ opacity:0.3;
      flex-direction: row;
      background: rgba(255, 228, 30, 0.8);
 }
-.events .eventsContainer:nth-of-type(1){
+#newEvents .eventsContainer:nth-of-type(1){
+    background-image: url(../img/event5.png);
+}
+#pastEvents .eventsContainer:nth-of-type(1){
     background-image: url(../img/event3.jpg);
 }
-.events .eventsContainer:nth-of-type(2){
+#pastEvents .eventsContainer:nth-of-type(2){
     background-image: url(../img/event2.jpg);
 }
-.events .eventsContainer:nth-of-type(3){
+#pastEvents .eventsContainer:nth-of-type(3){
     background-image: url(../img/event1.jpg);
 }
-.events .eventsContainer:nth-of-type(4){
+#pastEvents .eventsContainer:nth-of-type(4){
     background-image: url(../img/event4.jpg);
 }
 .eventsContainer p{
@@ -211,8 +215,10 @@ opacity:0.3;
     color: white;
     text-shadow: 1px 1px 5px rgb(0, 0, 0, 0.8);
 }
-.eventsContainer{
+#pastEvents .eventsContainer{
     width: 585px;
+}
+.eventsContainer{
     flex-grow: 1;
     background-size:cover;
     background-size:cover;
@@ -238,6 +244,7 @@ opacity:0.3;
 .eventPlace{
     width: 40%;
     font-weight: 800;
+    align-self: center;
     text-align: justify
 }
 .yellow{
