@@ -1,213 +1,181 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Nodeschool Tabasco</title>
-  <link rel="stylesheet" href="assets/css/estilo.css">
-  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-  <link rel="shortcut icon" href="assets/img/favicon.ico">
-  <script src="assets/js/nodeschool.js"></script>
-</head>
-<body>
-  <header class="cabecera">
-    <img src="./assets/img/nodeschool.svg" alt="Logo nodeschool Tabasco">
-  </header>
-  <nav class="texto-cabecera">
-    <h2>¡Aprende a codear JavaScript con nosotros!</h2>
-  </nav>
-  <section class="cuerpo">
-    <div class="info-nodeschool">
-      <p>
-        <b>NodeSchool</b> es el lugar donde puedes comenzar en el increíble camino de <b>JavaScript</b> y <b>Node.js</b>
-      </p>
-    </div>
-    <div class="ejemplos">
-      <article class="descarga">
-        <header class="puntero">
-          <div class="opcion"></div>
-          <div class="opcion"></div>
-          <div class="opcion"></div>
-        </header>
-        <section class="descarga-info">
-          <ul>
-            <li>npm install -g learnyounode</li>
-            <li>learnyounode</li>
-          </ul>
-        </section>        
-      </article>      
-      <article class="descarga">
-        <header class="puntero">
-          <div class="opcion"></div>
-          <div class="opcion"></div>
-          <div class="opcion"></div>
-        </header>
-        <section class="descarga-info">
-          <ul>
-            <li>» HELLO WORLD</li>
-            <li>» MIS PRIMEROS PASOS</li>
-            <li>» MI PRIMER I/O!</li>
-          </ul>
-        </section>
-      </article>
-    </div>
-    <div class="info-nodeschool">
-      <p>
-        Es también el lugar donde los <b>estudiantes</b> y <b>Mentores</b> comparten lo que han aprendido juntos, tanto mentores como alumnos están dispuestos a ayudar a progresar a la comunidad de <b>NodeSchool</b>.
-      </p>
-    </div>
-    <div class="eventos">
-      <header class="titulo-talleres">
-        <h2>Siguientes talleres</h2>
-      </header>
-     <article class="evento-agendado">
-       <ul>
-         <li class="n-taller">Git & Hacktober Fest 2018</li>
-         <li>26 de Octubre de 2018</li>
-         <li>7:00 PM</li>
-       </ul>
-       <p>
-         <br>
-         Calle Luna 109 altos, Galaxias
-         [Galaxia Coworking]
-         Villahermosa, Tabasco.<br>
-         CP: 86035
-       </p>
-       <ul>
-         <li><b>Consideraciones</b></li>
-         <li>Llevar laptop.</li>
-         <li>Llevar instalado Git.</li>
-         <li>Llevar disfraz o mascara</li>
-       </ul>
-       <br>
-     </article>
+<html>
 
-      <header class="titulo-talleres">
-        <h2>Ediciones Anteriores</h2>
-      </header>
-           <article class="evento-agendado">
-       <ul>
-         <li class="n-taller">Aprendiendo automatizadores de tarea "Gulp"</li>
-         <li>19 de Diciembre del 2016</li>
-         <li>5:00 PM</li>
-       </ul>
-       <p>
-         <br>
-         Libertad #702, Esquina Miguel Hidalgo.
-         Tamulte de las barrancas.<br>
-         Villahermosa, Tabasco.<br>
-         CP: 86150
-       </p>
-       <ul>
-         <li><b>Consideraciones</b></li>
-         <li>Llevar laptop.</li>
-       </ul>
-       <br>
-     </article>
-      <article class="evento-agendado">
-        <ul>
-          <li class="n-taller">NodeSchool for Startups (Edición Especial)</li>
-          <li>23 de Octubre del 2016</li>
-          <li>Horario por definir</li>
-        </ul>
-        <p>
-          <span class="e-especial">Startup Weekend Villahermosa.</span>
-          <br>
-          Startup Sur Sureste
-          Boulevard Adolfo Ruiz Cortines 905 
-          Villahermosa, Tabasco.
-        </p>
-        <ul>
-          <li><b>Consideraciones</b></li>
-          <li>Llevar laptop.</li>
-        </ul>
-        <br>
-      </article>
-      <article class="evento-agendado">
-        <ul>
-          <li class="n-taller">Mi Primer Servidor Web en Node.js</li>
-          <li>20 de Octubre del 2016</li>
-          <li>9am - 1pm</li>
-        </ul>
-        <p>
-          Instituto Tecnológico de la Zona Olmeca.
-          <br>
-          Prolongación Ignacio Zaragoza S/N
-          Villa Ocuiltzapotlán, Centro, Tabasco. C.P. 86720, México.
-        </p>
-        <ul>
-          <li><b>Consideraciones</b></li>
-          <li>Llevar laptop.</li>
-        </ul>
-        <br>
-      </article> 
-      <article class="evento-agendado">
-        <ul>
-          <li class="n-taller">Aplicación en tiempo real con Express y socket.io</li>
-          <li>8 de septiembre del 2016</li>
-          <li>5pm - 8pm</li>
-        </ul>
-        <p>
-          PMC Villahermosa.
-          <br>
-          Av Universidad 319, Tierra Colorada, Centro, 86029 Villahermosa, Tab.
-        </p>
-        <ul>
-          <li><b>Consideraciones</b></li>
-          <li>Llevar laptop.</li>
-        </ul>
-        <br>
-      </article>
-      <article class="evento-agendado">
-        <ul>
-          <li class="n-taller">JavaScripting</li>
-          <li>(Principiantes)</li>
-          <li>21 de Julio del 2016</li>
-          <li>5pm - 8pm</li>
-        </ul>
-        <p>
-          PMC Villahermosa.
-          <br>
-          Av Universidad 319, Tierra Colorada, Centro, 86029 Villahermosa, Tab.
-        </p>
-        <ul>
-          <li><b>Consideraciones</b></li>
-          <li>Llevar laptop.</li>
-        </ul>
-        <br>
-      </article>
-    </div>
-    <div class="info-adicional">
-      <ul>
-        <li><b>NodeSchool</b> es un grupo de voluntarios que apoyan a las demás personas a aprender y escribir código JavaScript</li>
-        <li>Si tienes alguna duda puedes contactarnos en <a href="https://www.facebook.com/NodeSchoolTabasco" target="_blank">NodeSchoolTabasco</a></li>
-        <li>Pedimos a todos los participantes, patrocinadores y ponentes que se guíen por nuestro <a href="https://github.com/nodeschool/merida/blob/master/codeofconduct.md" target="_blank">código de conducta</a>.</li>
-      </ul>
-    </div>
-  </section>
-  <footer class="pie">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+</head>
+
+<body>
     <header>
-      <h3>NodeSchool Tabasco es organizado por:</h3>
+        <div class="animated-background">
+            <div class="headerContainer">
+                <img width="30%" src="assets/img/nodeschool.svg">
+                <h1>¡Aprende a codear JavaScript con nosotros!</h1>
+                <h2>NodeSchool es el lugar donde puedes comenzar en el increíble camino de JavaScript y Node.js</h2>
+            </div>
+            <div class="container">
+            </div>
+        </div>
     </header>
-    <div class="organizadores">
-      <acronym title="Kimvex">
-        <a target="_blank" href="http://www.kimvex.com" target="_blank"><img src="assets/img/kimvex 200x200.png" alt=""></a>
-        <p class="organiza">Kimvex</p>
-      </acronym>
-      <acronym title="RIE Tabasco A.C.">
-        <a target="_blank" href="http://rietabasco.org"><img src="assets/img/rie 200x200.png" alt="RIE Tabasco A.C."></a>
-        <br>
-        <p class="organiza">Red para la innovacion y el emprendimiento tecnológico de tabasco</p>
-      </acronym>
-      <acronym title="Hack Tabasco">
-        <a target="_blank" href="https://www.facebook.com/groups/hacktabasco/"><img src="assets/img/hacktabasco.jpeg" alt="Hack Tabasco"></a>
-        <p class="organiza">Hack Tabasco</p>
-      </acronym>      
-      <acronym title="Venzee">
-        <a target="_blank" href="https://venzee.com"><img src="assets/img/venzeee.png" alt="Venzee"></a>
-        <p class="organiza">Venzee</p>
-      </acronym>
+    <section class="nodeSchoolInfo">
+        <h2 background="#ffe51f">
+            Estas a un npm install de aprender cualquier cosa
+        </h2>
+            <p>
+                <b>NodeSchool </b>es el lugar donde puedes comenzar en el increíble camino de <b>JavaScript </b> y <b>Node.js
+                </b>
+            </p>
+    </section>
+    <div class="prompts">
+    <article class="promptContainer">
+        <header class="promptBar">
+                <div class="option"></div>
+                <div class="option"></div>
+                <div class="option"></div>
+            </header>
+        <div class="prompt">
+            <section class="bullet">
+            <ul>
+                <li id="typingAnimation">npm install -g learnyounode<span></span></li>
+                <li>
+                    <br>
+                </li>
+                <li>learnyounode</li>
+            </ul>
+            </section>
+        </div>
+    </article>
+    <article class="promptContainer">
+        <header class="promptBar">
+                <div class="option"></div>
+                <div class="option"></div>
+                <div class="option"></div>
+            </header>
+        <div class="prompt">
+            <section class="bullet">
+                <ul>
+                    <li>» HELLO WORLD</li>
+                    <li>» MIS PRIMEROS PASOS</li>
+                    <li>» MI PRIMER I/O!</li>
+                </ul>
+            </section>
+        </div>
+    </article>
     </div>
-  </footer>
+    <section class="nodeSchoolInfo">
+        <p>
+            Es también el lugar donde los <b>estudiantes</b> y <b>Mentores</b> comparten lo que han aprendido juntos, tanto
+            mentores como alumnos están dispuestos a ayudar a progresar a la comunidad de <b>NodeSchool</b>.
+        </p>
+    </section>
+    <section class="nodeSchoolInfo">
+        <h2>
+           EventosPasados
+        </h2>
+    </section>
+    <div class="events">
+        <section class="eventsContainer">
+            <div class="layer1">
+                <div class="eventDay">
+                    <p>SEP</p>
+                    <P>28</P>
+                </div>
+                <div class="eventName">
+                    <p>5.to Nodeschool Nodebot</p>
+                </div>
+                <div class="eventPlace">
+                    <p>Galaxia Coworking</p>
+                    <p>Villahermosa, Mexico</p>
+                </div>
+            </div>
+            </section>
+        <section class="eventsContainer">
+            <div class="layer2">
+                <div class="eventDay">
+                    <p>AGO</p>
+                    <P>31</P>
+                </div>
+                <div class="eventName">
+                    <p>4.to NodeSchool - Expressworks</p>
+                </div>
+                <div class="eventPlace">
+                    <p>Galaxia Coworking</p>
+                    <p>Villahermosa, Mexico</p>
+                </div>
+            </div>
+            </section>
+        <section class="eventsContainer">
+            <div class="layer3">
+                <div class="eventDay">
+                    <p>JUL</p>
+                    <P>27</P>
+                </div>
+                <div class="eventName">
+                    <p>Nodeschool Tabasco Junio 2018 - Aprende Javascript</p>
+                </div>
+                <div class="eventPlace">
+                    <p>Galaxia Coworking</p>
+                    <p>Villahermosa, Mexico</p>
+                </div>
+            </div>
+            </section>
+        <section class="eventsContainer">
+            <div class="layer4">
+                <div class="eventDay">
+                    <p>JUN</p>
+                    <P>29</P>
+                </div>
+                <div class="eventName">
+                    <p>5.to Nodeschool Nodebot</p>
+                </div>
+                <div class="eventPlace">
+                    <p>Galaxia Coworking</p>
+                    <p>Villahermosa, Mexico</p>
+                </div>
+            </div>
+            </section>
+    </div>
+    <section class="nodeSchoolInfo yellow">
+        <p><b>NodeSchool</b> es un grupo de voluntarios que apoyan a las demás personas a aprender y escribir código
+            JavaScript</p>
+        <p>Si tienes alguna duda puedes contactarnos en <a href="https://www.facebook.com/NodeSchoolTabasco" target="_blank">NodeSchoolTabasco</a></li>
+        <p>Pedimos a todos los participantes, patrocinadores y ponentes que se guíen por nuestro <a href="https://github.com/nodeschool/merida/blob/master/codeofconduct.md"
+                target="_blank">código de conducta</a>.</p>
+    </section>
+    <footer class="foot">
+        <header>
+            <h3>NodeSchool Tabasco es organizado por:</h3>
+        </header>
+        <div class="organizadores">
+            <abbr title="Kimvex">
+                <a target="_blank" href="http://www.kimvex.com"><img src="assets/img/kimvex%20200x200.png" alt=""></a>
+                <p class="organiza">Kimvex</p>
+            </abbr>
+            <abbr title="Red para la innovacion y el emprendimiento Tecnológico de Tabasco">
+                <a target="_blank" href="http://rietabasco.org"><img src="assets/img/rie%20200x200.png" alt="RIE Tabasco A.C."></a>
+                <br>
+                <p class="organiza">RIE Tabasco A.C.</p>
+            </abbr>
+            <abbr title="Hack Tabasco">
+                <a target="_blank" href="https://www.facebook.com/groups/hacktabasco/"><img src="assets/img/hacktabasco.jpeg"
+                        alt="Hack Tabasco"></a>
+                <p class="organiza">Hack Tabasco</p>
+            </abbr>
+            <abbr title="Venzee">
+                <a target="_blank" href="https://venzee.com"><img src="assets/img/venzeee.png" alt="Venzee"></a>
+                <p class="organiza">Venzee</p>
+            </abbr>
+        </div>
+    </footer>
+    <script>
+        var lvalue= document.getElementById("rectangle").innerHTML;
+var textLength = lvalue.length();
+    </script>
 </body>
+
 </html>
