@@ -1,11 +1,11 @@
 # tabasco
 NodeSchool chapter for Tabasco, MX
 
-Mentores:
+## Mentores:
 
-Giovanni Ortiz
-Adrian Valentin
-Angel Peralta
-Gartox
+* Giovanni Ortiz
+* Adrian Valentin
+* Angel Peralta
+* Gartox
 
 
