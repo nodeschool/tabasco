@@ -1,0 +1,7 @@
+node_modules/babel-preset-es2015
+node_modules/babelify
+node_modules/catlistener
+node_modules/*
+node_modules
+.DS_Store
+.gitignore

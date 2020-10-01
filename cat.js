@@ -1,4 +1,4 @@
-var cat = require('catlistener');
+const cat = require('catlistener');
 
 cat.stylus({
   options: ['compila','escucha','observa'],
